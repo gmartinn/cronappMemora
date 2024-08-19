@@ -1,0 +1,140 @@
+{
+  "customId": "query491578",
+  "queryName": "areaatuacaopersonalizada",
+  "sourceType": "entityFullName",
+  "baseEntity": null,
+  "blockly": null,
+  "entitySimpleName": "TBL_HUB_AREA_ATUACAOm",
+  "entityFullName": "app.entity.TBL_HUB_AREA_ATUACAOm",
+  "query": {
+    "isValid": true,
+    "isEmpty": false,
+    "operationType": "object",
+    "isNativeQuery": false,
+    "namespace": "app",
+    "type": "select",
+    "rulesEntity": [
+      {
+        "entity": "TBL_HUB_AREA_ATUACAOm",
+        "namespace": "app.entity.TBL_HUB_AREA_ATUACAOm",
+        "dataSourceOptions": {
+          "id": "app.TBL_HUB_AREA_ATUACAOm",
+          "customId": "TBL_HUB_AREA_ATUACAOm",
+          "customQueryName": "app.TBL_HUB_AREA_ATUACAOm",
+          "paramValues": [],
+          "entityFullName": "app.entity.TBL_HUB_AREA_ATUACAOm",
+          "schemaFields": [
+            {
+              "name": "coD_HUB_AREA_ATUACAO",
+              "type": "String",
+              "nullable": false,
+              "notEmpty": false,
+              "key": false
+            },
+            {
+              "name": "tx_NOME_AREA_ATUACAO",
+              "type": "String",
+              "nullable": true,
+              "notEmpty": false,
+              "key": false
+            },
+            {
+              "name": "siT_CURSO",
+              "type": "String",
+              "nullable": true,
+              "notEmpty": false,
+              "key": false
+            },
+            {
+              "name": "_objectKey",
+              "type": "String",
+              "nullable": false,
+              "notEmpty": false,
+              "key": true
+            }
+          ],
+          "type": "entity",
+          "hasError": false,
+          "customName": "TBL_HUB_AREA_ATUACAOm",
+          "fullName": "app.entity.TBL_HUB_AREA_ATUACAOm",
+          "labelName": "app.entity.TBL_HUB_AREA_ATUACAOm (TBL_HUB_AREA_ATUACAOm)"
+        },
+        "alias": "t"
+      }
+    ],
+    "rulesSelect": [
+      {
+        "func": "get",
+        "field": "t",
+        "type": "string"
+      }
+    ],
+    "rulesJoin": [],
+    "rulesGroupBy": [],
+    "rulesHaving": [],
+    "rulesOrderBy": [],
+    "rules": {
+      "condition": "AND",
+      "rules": [],
+      "not": false,
+      "valid": true
+    },
+    "isRawSql": false,
+    "multiTenant": false,
+    "paginatorAutomatic": false,
+    "pagination": false
+  },
+  "queryParamsValues": [],
+  "verbs": {
+    "GET": true,
+    "GETAuthorities": null,
+    "POST": true,
+    "POSTAuthorities": null,
+    "PUT": true,
+    "PUTAuthorities": null,
+    "DELETE": true,
+    "DELETEAuthorities": null,
+    "FILTER": true,
+    "FILTERAuthorities": null,
+    "COUNT": true,
+    "COUNTAuthorities": null
+  },
+  "events": {
+    "beforeInsert": null,
+    "beforeUpdate": null,
+    "beforeDelete": null,
+    "afterInsert": null,
+    "afterUpdate": null,
+    "afterDelete": null,
+    "onNavigate": null,
+    "onAuthorize": null,
+    "onError": null
+  },
+  "defaultValues": {
+    "coD_HUB_AREA_ATUACAO": null,
+    "tx_NOME_AREA_ATUACAO": null,
+    "siT_CURSO": null
+  },
+  "defaultValuesProperties": {
+    "coD_HUB_AREA_ATUACAO": null,
+    "tx_NOME_AREA_ATUACAO": null,
+    "siT_CURSO": null
+  },
+  "security": {
+    "coD_HUB_AREA_ATUACAO": null,
+    "tx_NOME_AREA_ATUACAO": null,
+    "siT_CURSO": null
+  },
+  "calcFields": {},
+  "calcFieldsSecurity": {},
+  "calcFieldsProperties": {},
+  "headers": {},
+  "errorHandles": {
+    "primaryKey": null,
+    "foreignKey": null
+  },
+  "serviceUrl": "api/cronapi/odata/v2/app/query491578/",
+  "audit": false,
+  "swagger": false,
+  "library": false
+}
