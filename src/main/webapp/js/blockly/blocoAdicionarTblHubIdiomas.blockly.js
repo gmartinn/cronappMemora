@@ -10,7 +10,7 @@ window.blockly.js.blockly.BlocoAdicionarTblHubIdiomas = window.blockly.js.blockl
  *
  *
  * @author Guilherme Martin De Magalhaes
- * @since 20/08/2024, 14:01:54
+ * @since 20/08/2024, 20:32:19
  *
  */
 window.blockly.js.blockly.BlocoAdicionarTblHubIdiomas.enviarParaGrade2Args = [];
@@ -49,7 +49,7 @@ window.blockly.js.blockly.BlocoAdicionarTblHubIdiomas.enviarParaGrade2 = async f
  *
  *
  * @author Guilherme Martin De Magalhaes
- * @since 20/08/2024, 14:01:54
+ * @since 20/08/2024, 20:32:19
  *
  */
 window.blockly.js.blockly.BlocoAdicionarTblHubIdiomas.enviarParaGradeArgs = [];
@@ -58,13 +58,13 @@ window.blockly.js.blockly.BlocoAdicionarTblHubIdiomas.enviarParaGrade = async fu
   //
   (await this.cronapi.client('cronapi.screen.startInsertingMode').run("TBL_HUB_IDIOMASm"));
   //
-  this.cronapi.screen.changeValueOfField("IdiomaCombo.active.opcao", this.cronapi.screen.getValueOfField("vars.dynCombobox8689"));
+  this.cronapi.screen.changeValueOfField("IdiomaCombo.active.id", this.cronapi.screen.getValueOfField("vars.dynCombobox8689"));
   //
-  this.cronapi.screen.changeValueOfField("LeituraCombo.active.opcao", this.cronapi.screen.getValueOfField("vars.dynCombobox868962871"));
+  this.cronapi.screen.changeValueOfField("LeituraCombo.active.id", this.cronapi.screen.getValueOfField("vars.dynCombobox868962871"));
   //
-  this.cronapi.screen.changeValueOfField("EscritaCombo.active.opcao", this.cronapi.screen.getValueOfField("vars.dynCombobox868911141"));
+  this.cronapi.screen.changeValueOfField("LeituraCombo.active.id", this.cronapi.screen.getValueOfField("vars.dynCombobox868911141"));
   //
-  this.cronapi.screen.changeValueOfField("ConversacaoCombo.active.opcao", this.cronapi.screen.getValueOfField("vars.dynCombobox868987821"));
+  this.cronapi.screen.changeValueOfField("ConversacaoCombo.active.id", this.cronapi.screen.getValueOfField("vars.dynCombobox868987821"));
   //
   (await this.cronapi.client('cronapi.screen.post').run("TBL_HUB_IDIOMASm"));
   //

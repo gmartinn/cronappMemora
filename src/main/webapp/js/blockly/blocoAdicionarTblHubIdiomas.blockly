@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><blockly audit="false" blocklyType="" bpmnAble="false" formTarget="src/main/webapp/views/logged/cadastrarIdioma.view.html" functionCategory="" library="false" linkHelp="" multilayer="false" resourceType="JS" ruleDescription="blocoAdicionar" ruleName="blocoAdicionar" ruleSynchronous="false" ruleTimeout="" ruleType="I" showAsFunction="false" soap="false" swagger="false">
-  <metadata scale="1" scrollx="325.4648437500002" scrolly="20.299999999997738" target="Anb:u5+^,0vLkL9QIqn5"/>
+<?xml version="1.0" encoding="UTF-8"?><blockly audit="false" blocklyType="WEB" bpmnAble="false" formTarget="src/main/webapp/views/logged/cadastrarIdioma.view.html" functionCategory="" library="false" linkHelp="" multilayer="false" resourceType="JS" ruleDescription="blocoAdicionar" ruleName="blocoAdicionar" ruleSynchronous="false" ruleTimeout="" ruleType="I" showAsFunction="false" soap="false" swagger="false">
+  <metadata scale="1" scrollx="-74.48955655097916" scrolly="-56.10001122554246" target="Anb:u5+^,0vLkL9QIqn5"/>
   <block asynccall="false" colour="#995ba5" datasourcetype="" id="+F]W9nEN_[]iY(jWuagX" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-682" y="68">
     <field customattributes="" name="NAME">enviarParaGrade2</field>
     <statement name="STACK">
@@ -295,7 +295,7 @@
             </mutation>
             <value name="ARG0">
               <block asynccall="false" colour="#934848" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="!W}~YHjID+7`3d4g82c0" origintype="form_fieldscreen_callreturn" output="true" type="form_fieldscreen_callreturn">
-                <field customattributes="" name="SELECT">IdiomaCombo.active.opcao</field>
+                <field customattributes="" name="SELECT">IdiomaCombo.active.id</field>
               </block>
             </value>
             <value name="ARG1">
@@ -321,7 +321,7 @@
                 </mutation>
                 <value name="ARG0">
                   <block asynccall="false" colour="#934848" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="a@TQutl}d5058.g}pxOE" origintype="form_fieldscreen_callreturn" output="true" type="form_fieldscreen_callreturn">
-                    <field customattributes="" name="SELECT">LeituraCombo.active.opcao</field>
+                    <field customattributes="" name="SELECT">LeituraCombo.active.id</field>
                   </block>
                 </value>
                 <value name="ARG1">
@@ -347,7 +347,7 @@
                     </mutation>
                     <value name="ARG0">
                       <block asynccall="false" colour="#934848" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="^Gtfp)s~^|:jD~Gi/=Wb" origintype="form_fieldscreen_callreturn" output="true" type="form_fieldscreen_callreturn">
-                        <field customattributes="" name="SELECT">EscritaCombo.active.opcao</field>
+                        <field customattributes="" name="SELECT">LeituraCombo.active.id</field>
                       </block>
                     </value>
                     <value name="ARG1">
@@ -373,7 +373,7 @@
                         </mutation>
                         <value name="ARG0">
                           <block asynccall="false" colour="#934848" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="$lm%Bm6:e|K/HK?x{c!Y" origintype="form_fieldscreen_callreturn" output="true" type="form_fieldscreen_callreturn">
-                            <field customattributes="" name="SELECT">ConversacaoCombo.active.opcao</field>
+                            <field customattributes="" name="SELECT">ConversacaoCombo.active.id</field>
                           </block>
                         </value>
                         <value name="ARG1">

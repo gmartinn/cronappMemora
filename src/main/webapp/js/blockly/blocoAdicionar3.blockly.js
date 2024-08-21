@@ -9,8 +9,8 @@ window.blockly.js.blockly.BlocoAdicionar3 = window.blockly.js.blockly.BlocoAdici
  *
  *
  *
- * @author João Victor Tenorio Moreira De Lima
- * @since 19/08/2024, 09:09:35
+ * @author Guilherme Martin De Magalhaes
+ * @since 21/08/2024, 12:51:33
  *
  */
 window.blockly.js.blockly.BlocoAdicionar3.enviarParaGrade2Args = [];
@@ -48,8 +48,8 @@ window.blockly.js.blockly.BlocoAdicionar3.enviarParaGrade2 = async function() {
  *
  *
  *
- * @author João Victor Tenorio Moreira De Lima
- * @since 19/08/2024, 09:09:35
+ * @author Guilherme Martin De Magalhaes
+ * @since 21/08/2024, 12:51:33
  *
  */
 window.blockly.js.blockly.BlocoAdicionar3.enviarParaGradeArgs = [];

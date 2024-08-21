@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><blockly audit="false" blocklyType="WEB" bpmnAble="false" formTarget="src/main/webapp/views/logged/dados_tecnicos.view.html" functionCategory="" library="false" linkHelp="" multilayer="false" resourceType="JS" ruleDescription="blocoAdicionar" ruleName="blocoAdicionar" ruleSynchronous="false" ruleTimeout="" ruleType="I" showAsFunction="false" soap="false" swagger="false">
-  <metadata scale="1" scrollx="381.2187499999991" scrolly="-96.89999813735585" target="Anb:u5+^,0vLkL9QIqn5"/>
+  <metadata scale="1" scrollx="-14.999999999999773" scrolly="-112.60000000000014" target="Anb:u5+^,0vLkL9QIqn5"/>
   <block asynccall="false" colour="#995ba5" datasourcetype="" id="+F]W9nEN_[]iY(jWuagX" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-682" y="68">
     <field customattributes="" name="NAME">enviarParaGrade2</field>
     <statement name="STACK">
@@ -333,7 +333,7 @@
                       <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Campo"/>
                     </mutation>
                     <value name="ARG0">
-                      <block asynccall="false" collapsed="true" colour="#934848" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="0P$TiasF:qzO%cTfD5`i" origintype="form_fieldscreen_callreturn" output="true" type="form_fieldscreen_callreturn">
+                      <block asynccall="false" colour="#934848" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="0P$TiasF:qzO%cTfD5`i" origintype="form_fieldscreen_callreturn" output="true" type="form_fieldscreen_callreturn">
                         <field customattributes="" name="SELECT">vars.combobox55649061</field>
                       </block>
                     </value>
