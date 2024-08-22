@@ -15,16 +15,16 @@ import cronapi.swagger.CronappSwagger;
 import cronapp.framework.core.persistence.*;
 
 /**
-* Classe que representa a tabela TBL_HUB_IDIOMASM
+* Classe que representa a tabela TBL_HUB_IDIOMAS
 * @generated
 */
 @javax.persistence.Entity
-@javax.persistence.Table(name = "\"TBL_HUB_IDIOMASM\"")
+@javax.persistence.Table(name = "\"TBL_HUB_IDIOMAS\"")
 @XmlRootElement
 @CronappSecurity
-@JsonFilter("app.entity.TBL_HUB_IDIOMASm")
+@JsonFilter("app.entity.TBL_HUB_IDIOMAS")
 @CronappTable(role=CronappTableRole.CLASS)
-public class TBL_HUB_IDIOMASm implements Serializable {
+public class TBL_HUB_IDIOMAS implements Serializable {
     /**
     * UID da classe, necessário na serialização
     * @generated
@@ -80,7 +80,7 @@ public class TBL_HUB_IDIOMASm implements Serializable {
     * Construtor
     * @generated
     */
-    public TBL_HUB_IDIOMASm(){
+    public TBL_HUB_IDIOMAS(){
     }
 
     /**
@@ -97,7 +97,7 @@ public class TBL_HUB_IDIOMASm implements Serializable {
     * @param coD_HUB_IDIOMAS coD_HUB_IDIOMAS
     * @generated
     */
-    public TBL_HUB_IDIOMASm setCoD_HUB_IDIOMAS(java.lang.String coD_HUB_IDIOMAS) {
+    public TBL_HUB_IDIOMAS setCoD_HUB_IDIOMAS(java.lang.String coD_HUB_IDIOMAS) {
         this.coD_HUB_IDIOMAS = coD_HUB_IDIOMAS;
         return this;
     }
@@ -115,7 +115,7 @@ public class TBL_HUB_IDIOMASm implements Serializable {
     * @param idioma idioma
     * @generated
     */
-    public TBL_HUB_IDIOMASm setIdioma(Idioma idioma) {
+    public TBL_HUB_IDIOMAS setIdioma(Idioma idioma) {
         this.idioma = idioma;
         return this;
     }
@@ -133,7 +133,7 @@ public class TBL_HUB_IDIOMASm implements Serializable {
     * @param leitura leitura
     * @generated
     */
-    public TBL_HUB_IDIOMASm setLeitura(Leitura leitura) {
+    public TBL_HUB_IDIOMAS setLeitura(Leitura leitura) {
         this.leitura = leitura;
         return this;
     }
@@ -151,7 +151,7 @@ public class TBL_HUB_IDIOMASm implements Serializable {
     * @param escrita escrita
     * @generated
     */
-    public TBL_HUB_IDIOMASm setEscrita(Escrita escrita) {
+    public TBL_HUB_IDIOMAS setEscrita(Escrita escrita) {
         this.escrita = escrita;
         return this;
     }
@@ -169,7 +169,7 @@ public class TBL_HUB_IDIOMASm implements Serializable {
     * @param conversacao conversacao
     * @generated
     */
-    public TBL_HUB_IDIOMASm setConversacao(Conversacao conversacao) {
+    public TBL_HUB_IDIOMAS setConversacao(Conversacao conversacao) {
         this.conversacao = conversacao;
         return this;
     }
@@ -181,7 +181,7 @@ public class TBL_HUB_IDIOMASm implements Serializable {
     public boolean equals(Object obj) {
         if (this == obj) return true;
         if (obj == null || getClass() != obj.getClass()) return false;
-TBL_HUB_IDIOMASm object = (TBL_HUB_IDIOMASm)obj;
+TBL_HUB_IDIOMAS object = (TBL_HUB_IDIOMAS)obj;
         if (coD_HUB_IDIOMAS != null ? !coD_HUB_IDIOMAS.equals(object.coD_HUB_IDIOMAS) : object.coD_HUB_IDIOMAS != null) return false;
         return true;
     }

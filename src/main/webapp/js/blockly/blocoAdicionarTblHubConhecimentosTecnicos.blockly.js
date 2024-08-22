@@ -1,7 +1,7 @@
 window.blockly = window.blockly || {};
 window.blockly.js = window.blockly.js || {};
 window.blockly.js.blockly = window.blockly.js.blockly || {};
-window.blockly.js.blockly.BlocoAdicionarTblHubIdiomas = window.blockly.js.blockly.BlocoAdicionarTblHubIdiomas || {};
+window.blockly.js.blockly.BlocoAdicionarTblHubConhecimentosTecnicos = window.blockly.js.blockly.BlocoAdicionarTblHubConhecimentosTecnicos || {};
 
 /**
  * @function enviarParaGrade2
@@ -10,11 +10,11 @@ window.blockly.js.blockly.BlocoAdicionarTblHubIdiomas = window.blockly.js.blockl
  *
  *
  * @author Guilherme Martin De Magalhaes
- * @since 22/08/2024, 12:48:53
+ * @since 22/08/2024, 12:37:26
  *
  */
-window.blockly.js.blockly.BlocoAdicionarTblHubIdiomas.enviarParaGrade2Args = [];
-window.blockly.js.blockly.BlocoAdicionarTblHubIdiomas.enviarParaGrade2 = async function() {
+window.blockly.js.blockly.BlocoAdicionarTblHubConhecimentosTecnicos.enviarParaGrade2Args = [];
+window.blockly.js.blockly.BlocoAdicionarTblHubConhecimentosTecnicos.enviarParaGrade2 = async function() {
 
   //
   (await this.cronapi.client('cronapi.screen.startInsertingMode').run("Dados_Academicos2"));
@@ -49,26 +49,28 @@ window.blockly.js.blockly.BlocoAdicionarTblHubIdiomas.enviarParaGrade2 = async f
  *
  *
  * @author Guilherme Martin De Magalhaes
- * @since 22/08/2024, 12:48:53
+ * @since 22/08/2024, 12:37:26
  *
  */
-window.blockly.js.blockly.BlocoAdicionarTblHubIdiomas.enviarParaGradeArgs = [];
-window.blockly.js.blockly.BlocoAdicionarTblHubIdiomas.enviarParaGrade = async function() {
+window.blockly.js.blockly.BlocoAdicionarTblHubConhecimentosTecnicos.enviarParaGradeArgs = [];
+window.blockly.js.blockly.BlocoAdicionarTblHubConhecimentosTecnicos.enviarParaGrade = async function() {
 
   //
-  (await this.cronapi.client('cronapi.screen.startInsertingMode').run("TBL_HUB_IDIOMASm"));
+  (await this.cronapi.client('cronapi.screen.startInsertingMode').run("TBL_HUB_CONHECIMENTOS_TECNICOS"));
   //
-  this.cronapi.screen.changeValueOfField("TBL_HUB_IDIOMASm.active.idioma", this.cronapi.screen.getValueOfField("vars.dynCombobox8689"));
+  this.cronapi.screen.changeValueOfField("TBL_HUB_CONHECIMENTOS_TECNICOS.active.coD_HUB_CONHECIMENTOS_TECNICOS", this.cronapi.screen.getValueOfField("vars.input3158"));
   //
-  this.cronapi.screen.changeValueOfField("TBL_HUB_IDIOMASm.active.leitura", this.cronapi.screen.getValueOfField("vars.dynCombobox868962871"));
+  this.cronapi.screen.changeValueOfField("TBL_HUB_CONHECIMENTOS_TECNICOS.active.coD_HUB_AREA_CURSO", this.cronapi.screen.getValueOfField("vars.input315837241"));
   //
-  this.cronapi.screen.changeValueOfField("TBL_HUB_IDIOMASm.active.escrita", this.cronapi.screen.getValueOfField("vars.dynCombobox868911141"));
+  this.cronapi.screen.changeValueOfField("TBL_HUB_CONHECIMENTOS_TECNICOS.active.coD_HUB_AREA_CURSO_TIPO", this.cronapi.screen.getValueOfField("vars.input31583724155641"));
   //
-  this.cronapi.screen.changeValueOfField("TBL_HUB_IDIOMASm.active.conversacao", this.cronapi.screen.getValueOfField("vars.dynCombobox868987821"));
+  this.cronapi.screen.changeValueOfField("TBL_HUB_CONHECIMENTOS_TECNICOS.active.tx_RESUMO_PROFISSIONAL", this.cronapi.screen.getValueOfField("vars.textarea4910"));
   //
-  (await this.cronapi.client('cronapi.screen.post').run("TBL_HUB_IDIOMASm"));
+  this.cronapi.screen.changeValueOfField("TBL_HUB_CONHECIMENTOS_TECNICOS.active.coD_HUB_AREA_ATUACAO", this.cronapi.screen.getValueOfField("vars.dynCombobox5812"));
   //
-  (await this.cronapi.client('cronapi.screen.backNormalState').run("TBL_HUB_IDIOMASm"));
+  (await this.cronapi.client('cronapi.screen.post').run("TBL_HUB_CONHECIMENTOS_TECNICOS"));
+  //
+  (await this.cronapi.client('cronapi.screen.backNormalState').run("TBL_HUB_CONHECIMENTOS_TECNICOS"));
   //
   (await this.cronapi.client('cronapi.screen.recompileComponent').run("cron-crn-grid-search"));
 }

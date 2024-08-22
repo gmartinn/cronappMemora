@@ -124,6 +124,15 @@ public class TBL_HUB_CERTIFICACAO implements Serializable {
 
 
     /**
+    * @generated
+    */
+    @ManyToOne
+    @JoinColumn(name="fk_TBL_HUB_AREA_ATUACAO", nullable = true, referencedColumnName = "COD_HUB_AREA_ATUACAO", insertable=true, updatable=true)
+        
+        private TBL_HUB_AREA_ATUACAO tbL_HUB_AREA_ATUACAO;
+
+
+    /**
     * Construtor
     * @generated
     */
@@ -308,6 +317,24 @@ public class TBL_HUB_CERTIFICACAO implements Serializable {
     */
     public TBL_HUB_CERTIFICACAO setTbL_HUB_CERTIFICACAO_0(TBL_HUB_CERTIFICACAO tbL_HUB_CERTIFICACAO_0) {
         this.tbL_HUB_CERTIFICACAO_0 = tbL_HUB_CERTIFICACAO_0;
+        return this;
+    }
+    /**
+    * Obtém tbL_HUB_AREA_ATUACAO
+    * return tbL_HUB_AREA_ATUACAO
+    * @generated
+    */
+    public TBL_HUB_AREA_ATUACAO getTbL_HUB_AREA_ATUACAO() {
+        return this.tbL_HUB_AREA_ATUACAO;
+    }
+
+    /**
+    * Define tbL_HUB_AREA_ATUACAO
+    * @param tbL_HUB_AREA_ATUACAO tbL_HUB_AREA_ATUACAO
+    * @generated
+    */
+    public TBL_HUB_CERTIFICACAO setTbL_HUB_AREA_ATUACAO(TBL_HUB_AREA_ATUACAO tbL_HUB_AREA_ATUACAO) {
+        this.tbL_HUB_AREA_ATUACAO = tbL_HUB_AREA_ATUACAO;
         return this;
     }
 
