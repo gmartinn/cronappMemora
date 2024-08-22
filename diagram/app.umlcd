@@ -403,6 +403,585 @@
       "angle": 0,
       "attributes": [
         "id:java.lang.Integer",
+        "descricaoAreaAtuacao:java.lang.String",
+        "status:java.lang.Boolean"
+      ],
+      "attrs": {
+        ".uml-class-attrs-rect": {
+          "fill": "#F0F0F0",
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "height": 80,
+          "stroke": "#C2C2C2",
+          "transform": "translate(0,40)"
+        },
+        ".uml-class-attrs-text": {
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "font-size": 11,
+          "text": "* id\ndescricaoAreaAtuacao\nstatus\n"
+        },
+        ".uml-class-attrs-value": {
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "font-size": 11,
+          "ref-x": 181,
+          "text": "Inteiro\nTexto\nLógico\n"
+        },
+        ".uml-class-methods-rect": {
+          "fill": "#F0F0F0",
+          "height": 20,
+          "stroke": "#C2C2C2",
+          "stroke-width": 1,
+          "transform": "translate(0,120)"
+        },
+        ".uml-class-methods-text": {
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "font-size": 11,
+          "text": ""
+        },
+        ".uml-class-name-rect": {
+          "fill": "#F0F0F0",
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "height": 40,
+          "stroke": "#C2C2C2",
+          "transform": "translate(0,0)"
+        },
+        ".uml-class-name-text": {
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "text": "AreaAtuacao"
+        }
+      },
+      "audit": false,
+      "fields": [
+        {
+          "name": "id",
+          "type": "java.lang.Integer",
+          "dbName": "id",
+          "dbLength": "",
+          "dbPrecision": "",
+          "dbScale": "",
+          "dbDefaultValue": "",
+          "label": "Id",
+          "mask": "",
+          "isPrimaryKey": true,
+          "isUniqueKey": false,
+          "isNullable": false,
+          "isNotEmpty": false,
+          "pkType": "Identity",
+          "multitenantContext": "",
+          "jsonIgnore": false,
+          "isTransient": false,
+          "isInsertable": true,
+          "isUpdatable": true,
+          "isEncryption": false,
+          "passwordPolicy": "none",
+          "referencedColumnName": "",
+          "isSearchable": false,
+          "sequence": "",
+          "isCascade": false,
+          "isVersion": false,
+          "storageId": "",
+          "storageKey": "",
+          "storageType": "",
+          "storageSecret": "",
+          "foreignKeyName": "",
+          "joins": "",
+          "isIndex": false,
+          "useOuterJoin": false,
+          "regionAWS": "",
+          "columnDefinition": ""
+        },
+        {
+          "name": "descricaoAreaAtuacao",
+          "type": "java.lang.String",
+          "dbName": "descricaoAreaAtuacao",
+          "dbLength": "",
+          "dbPrecision": "",
+          "dbScale": "",
+          "dbDefaultValue": "",
+          "label": "Descricao Area Atuacao",
+          "mask": "",
+          "isPrimaryKey": false,
+          "isUniqueKey": false,
+          "isNullable": false,
+          "isNotEmpty": true,
+          "pkType": "",
+          "multitenantContext": "",
+          "jsonIgnore": false,
+          "isTransient": false,
+          "isInsertable": true,
+          "isUpdatable": true,
+          "isEncryption": false,
+          "passwordPolicy": "none",
+          "referencedColumnName": "",
+          "isSearchable": false,
+          "sequence": "",
+          "isCascade": false,
+          "isVersion": false,
+          "storageId": "",
+          "storageKey": "",
+          "storageType": "",
+          "storageSecret": "",
+          "foreignKeyName": "",
+          "joins": "",
+          "isIndex": false,
+          "useOuterJoin": false,
+          "regionAWS": "",
+          "columnDefinition": ""
+        },
+        {
+          "name": "status",
+          "type": "java.lang.Boolean",
+          "dbName": "status",
+          "dbLength": "",
+          "dbPrecision": "",
+          "dbScale": "",
+          "dbDefaultValue": "",
+          "label": "Status",
+          "mask": "",
+          "isPrimaryKey": false,
+          "isUniqueKey": false,
+          "isNullable": true,
+          "isNotEmpty": false,
+          "pkType": "",
+          "multitenantContext": "",
+          "jsonIgnore": false,
+          "isTransient": false,
+          "isInsertable": true,
+          "isUpdatable": true,
+          "isEncryption": false,
+          "passwordPolicy": "none",
+          "referencedColumnName": "",
+          "isSearchable": false,
+          "sequence": "",
+          "isCascade": false,
+          "isVersion": false,
+          "storageId": "",
+          "storageKey": "",
+          "storageType": "",
+          "storageSecret": "",
+          "foreignKeyName": "",
+          "joins": "",
+          "isIndex": false,
+          "useOuterJoin": false,
+          "regionAWS": "",
+          "columnDefinition": ""
+        }
+      ],
+      "generateView": "Auto",
+      "id": "015a4ddd-dcc4-43ab-a69b-d03c5fb46262",
+      "isRest": "true",
+      "methods": [],
+      "modelType": "Table",
+      "name": "AreaAtuacao",
+      "position": {
+        "x": -342,
+        "y": -328
+      },
+      "queries": [],
+      "realName": "",
+      "restSecurity": null,
+      "role": "Class",
+      "runtimeClass": "cronos.widgets.joint.uml.Class",
+      "size": {
+        "height": 130,
+        "width": 228
+      },
+      "swagger": false,
+      "tableName": "",
+      "tableScheme": null,
+      "type": "uml.Class",
+      "usePhysicalNames": false,
+      "z": 70
+    },
+    {
+      "angle": 0,
+      "attributes": [
+        "id:java.lang.Integer",
+        "descricaoAreaCursos:java.lang.String",
+        "status:java.lang.Boolean"
+      ],
+      "attrs": {
+        ".uml-class-attrs-rect": {
+          "fill": "#F0F0F0",
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "height": 80,
+          "stroke": "#C2C2C2",
+          "transform": "translate(0,40)"
+        },
+        ".uml-class-attrs-text": {
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "font-size": 11,
+          "text": "* id\ndescricaoAreaCursos\nstatus\n"
+        },
+        ".uml-class-attrs-value": {
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "font-size": 11,
+          "ref-x": 178,
+          "text": "Inteiro\nTexto\nLógico\n"
+        },
+        ".uml-class-methods-rect": {
+          "fill": "#F0F0F0",
+          "height": 20,
+          "stroke": "#C2C2C2",
+          "stroke-width": 1,
+          "transform": "translate(0,120)"
+        },
+        ".uml-class-methods-text": {
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "font-size": 11,
+          "text": ""
+        },
+        ".uml-class-name-rect": {
+          "fill": "#F0F0F0",
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "height": 40,
+          "stroke": "#C2C2C2",
+          "transform": "translate(0,0)"
+        },
+        ".uml-class-name-text": {
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "text": "AreaCursos"
+        }
+      },
+      "audit": false,
+      "fields": [
+        {
+          "name": "id",
+          "type": "java.lang.Integer",
+          "dbName": "id",
+          "dbLength": "",
+          "dbPrecision": "",
+          "dbScale": "",
+          "dbDefaultValue": "",
+          "label": "Id",
+          "mask": "",
+          "isPrimaryKey": true,
+          "isUniqueKey": false,
+          "isNullable": false,
+          "isNotEmpty": false,
+          "pkType": "Identity",
+          "multitenantContext": "",
+          "jsonIgnore": false,
+          "isTransient": false,
+          "isInsertable": true,
+          "isUpdatable": true,
+          "isEncryption": false,
+          "passwordPolicy": "none",
+          "referencedColumnName": "",
+          "isSearchable": false,
+          "sequence": "",
+          "isCascade": false,
+          "isVersion": false,
+          "storageId": "",
+          "storageKey": "",
+          "storageType": "",
+          "storageSecret": "",
+          "foreignKeyName": "",
+          "joins": "",
+          "isIndex": false,
+          "useOuterJoin": false,
+          "regionAWS": "",
+          "columnDefinition": ""
+        },
+        {
+          "name": "descricaoAreaCursos",
+          "type": "java.lang.String",
+          "dbName": "descricaoAreaCursos",
+          "dbLength": "",
+          "dbPrecision": "",
+          "dbScale": "",
+          "dbDefaultValue": "",
+          "label": "Descricao Area Cursos",
+          "mask": "",
+          "isPrimaryKey": false,
+          "isUniqueKey": false,
+          "isNullable": false,
+          "isNotEmpty": true,
+          "pkType": "",
+          "multitenantContext": "",
+          "jsonIgnore": false,
+          "isTransient": false,
+          "isInsertable": true,
+          "isUpdatable": true,
+          "isEncryption": false,
+          "passwordPolicy": "none",
+          "referencedColumnName": "",
+          "isSearchable": false,
+          "sequence": "",
+          "isCascade": false,
+          "isVersion": false,
+          "storageId": "",
+          "storageKey": "",
+          "storageType": "",
+          "storageSecret": "",
+          "foreignKeyName": "",
+          "joins": "",
+          "isIndex": false,
+          "useOuterJoin": false,
+          "regionAWS": "",
+          "columnDefinition": ""
+        },
+        {
+          "name": "status",
+          "type": "java.lang.Boolean",
+          "dbName": "status",
+          "dbLength": "",
+          "dbPrecision": "",
+          "dbScale": "",
+          "dbDefaultValue": "",
+          "label": "Status",
+          "mask": "",
+          "isPrimaryKey": false,
+          "isUniqueKey": false,
+          "isNullable": false,
+          "isNotEmpty": false,
+          "pkType": "",
+          "multitenantContext": "",
+          "jsonIgnore": false,
+          "isTransient": false,
+          "isInsertable": true,
+          "isUpdatable": true,
+          "isEncryption": false,
+          "passwordPolicy": "none",
+          "referencedColumnName": "",
+          "isSearchable": false,
+          "sequence": "",
+          "isCascade": false,
+          "isVersion": false,
+          "storageId": "",
+          "storageKey": "",
+          "storageType": "",
+          "storageSecret": "",
+          "foreignKeyName": "",
+          "joins": "",
+          "isIndex": false,
+          "useOuterJoin": false,
+          "regionAWS": "",
+          "columnDefinition": ""
+        }
+      ],
+      "generateView": "Auto",
+      "id": "9697aebe-f8dd-468e-8288-151ae0ac2d01",
+      "isRest": "true",
+      "methods": [],
+      "modelType": "Table",
+      "name": "AreaCursos",
+      "position": {
+        "x": -350,
+        "y": -502
+      },
+      "queries": [],
+      "realName": "",
+      "restSecurity": null,
+      "role": "Class",
+      "runtimeClass": "cronos.widgets.joint.uml.Class",
+      "size": {
+        "height": 130,
+        "width": 225
+      },
+      "swagger": false,
+      "tableName": "",
+      "tableScheme": null,
+      "type": "uml.Class",
+      "usePhysicalNames": false,
+      "z": 69
+    },
+    {
+      "angle": 0,
+      "attributes": [
+        "id:java.lang.Integer",
+        "DescricaoAreaCursos:java.lang.String",
+        "Status:java.lang.Boolean"
+      ],
+      "attrs": {
+        ".uml-class-attrs-rect": {
+          "fill": "#F0F0F0",
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "height": 80,
+          "stroke": "#C2C2C2",
+          "transform": "translate(0,40)"
+        },
+        ".uml-class-attrs-text": {
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "font-size": 11,
+          "text": "* id\nDescricaoAreaCursos\nStatus\n"
+        },
+        ".uml-class-attrs-value": {
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "font-size": 11,
+          "ref-x": 178,
+          "text": "Inteiro\nTexto\nLógico\n"
+        },
+        ".uml-class-methods-rect": {
+          "fill": "#F0F0F0",
+          "height": 20,
+          "stroke": "#C2C2C2",
+          "stroke-width": 1,
+          "transform": "translate(0,120)"
+        },
+        ".uml-class-methods-text": {
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "font-size": 11,
+          "text": ""
+        },
+        ".uml-class-name-rect": {
+          "fill": "#F0F0F0",
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "height": 40,
+          "stroke": "#C2C2C2",
+          "transform": "translate(0,0)"
+        },
+        ".uml-class-name-text": {
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "text": "AreaCursosTipo"
+        }
+      },
+      "audit": false,
+      "fields": [
+        {
+          "name": "id",
+          "type": "java.lang.Integer",
+          "dbName": "id",
+          "dbLength": "",
+          "dbPrecision": "",
+          "dbScale": "",
+          "dbDefaultValue": "",
+          "label": "Id",
+          "mask": "",
+          "isPrimaryKey": true,
+          "isUniqueKey": false,
+          "isNullable": false,
+          "isNotEmpty": false,
+          "pkType": "Identity",
+          "multitenantContext": "",
+          "jsonIgnore": false,
+          "isTransient": false,
+          "isInsertable": true,
+          "isUpdatable": true,
+          "isEncryption": false,
+          "passwordPolicy": "none",
+          "referencedColumnName": "",
+          "isSearchable": false,
+          "sequence": "",
+          "isCascade": false,
+          "isVersion": false,
+          "storageId": "",
+          "storageKey": "",
+          "storageType": "",
+          "storageSecret": "",
+          "foreignKeyName": "",
+          "joins": "",
+          "isIndex": false,
+          "useOuterJoin": false,
+          "regionAWS": "",
+          "columnDefinition": ""
+        },
+        {
+          "name": "DescricaoAreaCursos",
+          "type": "java.lang.String",
+          "dbName": "DescricaoAreaCursos",
+          "dbLength": "",
+          "dbPrecision": "",
+          "dbScale": "",
+          "dbDefaultValue": "",
+          "label": "Descricao Area Cursos",
+          "mask": "",
+          "isPrimaryKey": false,
+          "isUniqueKey": false,
+          "isNullable": false,
+          "isNotEmpty": true,
+          "pkType": "",
+          "multitenantContext": "",
+          "jsonIgnore": false,
+          "isTransient": false,
+          "isInsertable": true,
+          "isUpdatable": true,
+          "isEncryption": false,
+          "passwordPolicy": "none",
+          "referencedColumnName": "",
+          "isSearchable": false,
+          "sequence": "",
+          "isCascade": false,
+          "isVersion": false,
+          "storageId": "",
+          "storageKey": "",
+          "storageType": "",
+          "storageSecret": "",
+          "foreignKeyName": "",
+          "joins": "",
+          "isIndex": false,
+          "useOuterJoin": false,
+          "regionAWS": "",
+          "columnDefinition": ""
+        },
+        {
+          "name": "Status",
+          "type": "java.lang.Boolean",
+          "dbName": "Status",
+          "dbLength": "",
+          "dbPrecision": "",
+          "dbScale": "",
+          "dbDefaultValue": "",
+          "label": "Status",
+          "mask": "",
+          "isPrimaryKey": false,
+          "isUniqueKey": false,
+          "isNullable": true,
+          "isNotEmpty": false,
+          "pkType": "",
+          "multitenantContext": "",
+          "jsonIgnore": false,
+          "isTransient": false,
+          "isInsertable": true,
+          "isUpdatable": true,
+          "isEncryption": false,
+          "passwordPolicy": "none",
+          "referencedColumnName": "",
+          "isSearchable": false,
+          "sequence": "",
+          "isCascade": false,
+          "isVersion": false,
+          "storageId": "",
+          "storageKey": "",
+          "storageType": "",
+          "storageSecret": "",
+          "foreignKeyName": "",
+          "joins": "",
+          "isIndex": false,
+          "useOuterJoin": false,
+          "regionAWS": "",
+          "columnDefinition": ""
+        }
+      ],
+      "generateView": "Auto",
+      "id": "cb104884-430d-47aa-a4c3-ecbe781f38ce",
+      "isRest": "true",
+      "methods": [],
+      "modelType": "Table",
+      "name": "AreaCursosTipo",
+      "position": {
+        "x": -84,
+        "y": -338
+      },
+      "queries": [],
+      "realName": "",
+      "restSecurity": null,
+      "role": "Class",
+      "runtimeClass": "cronos.widgets.joint.uml.Class",
+      "size": {
+        "height": 130,
+        "width": 225
+      },
+      "swagger": false,
+      "tableName": "",
+      "tableScheme": null,
+      "type": "uml.Class",
+      "usePhysicalNames": false,
+      "z": 68
+    },
+    {
+      "angle": 0,
+      "attributes": [
+        "id:java.lang.Integer",
         "type:java.lang.String",
         "command:java.lang.String",
         "date:java.sql.Date",
@@ -986,6 +1565,277 @@
       "type": "uml.Class",
       "usePhysicalNames": false,
       "z": 50
+    },
+    {
+      "angle": 0,
+      "attributes": [
+        "id:java.lang.Integer",
+        "descricaoDoCursoAcademico:java.lang.String",
+        "tipoCurso:java.lang.String",
+        "Status:java.lang.Boolean",
+        "dataConclusao:java.util.Date"
+      ],
+      "attrs": {
+        ".uml-class-attrs-rect": {
+          "fill": "#F0F0F0",
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "height": 120,
+          "stroke": "#C2C2C2",
+          "transform": "translate(0,40)"
+        },
+        ".uml-class-attrs-text": {
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "font-size": 11,
+          "text": "* id\ndescricaoDoCursoAcademico\ntipoCurso\nStatus\ndataConclusao\n"
+        },
+        ".uml-class-attrs-value": {
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "font-size": 11,
+          "ref-x": 196,
+          "text": "Inteiro\nTexto\nTexto\nLógico\nData\n"
+        },
+        ".uml-class-methods-rect": {
+          "fill": "#F0F0F0",
+          "height": 20,
+          "stroke": "#C2C2C2",
+          "stroke-width": 1,
+          "transform": "translate(0,160)"
+        },
+        ".uml-class-methods-text": {
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "font-size": 11,
+          "text": ""
+        },
+        ".uml-class-name-rect": {
+          "fill": "#F0F0F0",
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "height": 40,
+          "stroke": "#C2C2C2",
+          "transform": "translate(0,0)"
+        },
+        ".uml-class-name-text": {
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "text": "Cursos"
+        }
+      },
+      "audit": false,
+      "fields": [
+        {
+          "name": "id",
+          "type": "java.lang.Integer",
+          "dbName": "id",
+          "dbLength": "",
+          "dbPrecision": "",
+          "dbScale": "",
+          "dbDefaultValue": "",
+          "label": "Id",
+          "mask": "",
+          "isPrimaryKey": true,
+          "isUniqueKey": false,
+          "isNullable": false,
+          "isNotEmpty": false,
+          "pkType": "Identity",
+          "multitenantContext": "",
+          "jsonIgnore": false,
+          "isTransient": false,
+          "isInsertable": true,
+          "isUpdatable": true,
+          "isEncryption": false,
+          "passwordPolicy": "none",
+          "referencedColumnName": "",
+          "isSearchable": false,
+          "sequence": "",
+          "isCascade": false,
+          "isVersion": false,
+          "storageId": "",
+          "storageKey": "",
+          "storageType": "",
+          "storageSecret": "",
+          "foreignKeyName": "",
+          "joins": "",
+          "isIndex": false,
+          "useOuterJoin": false,
+          "regionAWS": "",
+          "columnDefinition": ""
+        },
+        {
+          "name": "descricaoDoCursoAcademico",
+          "type": "java.lang.String",
+          "dbName": "descricaoDoCursoAcademico",
+          "dbLength": "",
+          "dbPrecision": "",
+          "dbScale": "",
+          "dbDefaultValue": "",
+          "label": "Descricao Do Curso Academico",
+          "mask": "",
+          "isPrimaryKey": false,
+          "isUniqueKey": false,
+          "isNullable": false,
+          "isNotEmpty": true,
+          "pkType": "",
+          "multitenantContext": "",
+          "jsonIgnore": false,
+          "isTransient": false,
+          "isInsertable": true,
+          "isUpdatable": true,
+          "isEncryption": false,
+          "passwordPolicy": "none",
+          "referencedColumnName": "",
+          "isSearchable": false,
+          "sequence": "",
+          "isCascade": false,
+          "isVersion": false,
+          "storageId": "",
+          "storageKey": "",
+          "storageType": "",
+          "storageSecret": "",
+          "foreignKeyName": "",
+          "joins": "",
+          "isIndex": false,
+          "useOuterJoin": false,
+          "regionAWS": "",
+          "columnDefinition": ""
+        },
+        {
+          "name": "tipoCurso",
+          "type": "java.lang.String",
+          "dbName": "tipoCurso",
+          "dbLength": "",
+          "dbPrecision": "",
+          "dbScale": "",
+          "dbDefaultValue": "",
+          "label": "Tipo Curso",
+          "mask": "",
+          "isPrimaryKey": false,
+          "isUniqueKey": false,
+          "isNullable": false,
+          "isNotEmpty": true,
+          "pkType": "",
+          "multitenantContext": "",
+          "jsonIgnore": false,
+          "isTransient": false,
+          "isInsertable": true,
+          "isUpdatable": true,
+          "isEncryption": false,
+          "passwordPolicy": "none",
+          "referencedColumnName": "",
+          "isSearchable": false,
+          "sequence": "",
+          "isCascade": false,
+          "isVersion": false,
+          "storageId": "",
+          "storageKey": "",
+          "storageType": "",
+          "storageSecret": "",
+          "foreignKeyName": "",
+          "joins": "",
+          "isIndex": false,
+          "useOuterJoin": false,
+          "regionAWS": "",
+          "columnDefinition": ""
+        },
+        {
+          "name": "Status",
+          "type": "java.lang.Boolean",
+          "dbName": "Status",
+          "dbLength": "",
+          "dbPrecision": "",
+          "dbScale": "",
+          "dbDefaultValue": "",
+          "label": "Status",
+          "mask": "",
+          "isPrimaryKey": false,
+          "isUniqueKey": false,
+          "isNullable": false,
+          "isNotEmpty": false,
+          "pkType": "",
+          "multitenantContext": "",
+          "jsonIgnore": false,
+          "isTransient": false,
+          "isInsertable": true,
+          "isUpdatable": true,
+          "isEncryption": false,
+          "passwordPolicy": "none",
+          "referencedColumnName": "",
+          "isSearchable": false,
+          "sequence": "",
+          "isCascade": false,
+          "isVersion": false,
+          "storageId": "",
+          "storageKey": "",
+          "storageType": "",
+          "storageSecret": "",
+          "foreignKeyName": "",
+          "joins": "",
+          "isIndex": false,
+          "useOuterJoin": false,
+          "regionAWS": "",
+          "columnDefinition": ""
+        },
+        {
+          "name": "dataConclusao",
+          "type": "java.util.Date",
+          "dbName": "dataConclusao",
+          "dbLength": "",
+          "dbPrecision": "",
+          "dbScale": "",
+          "dbDefaultValue": "",
+          "label": "Data Conclusao",
+          "mask": "",
+          "isPrimaryKey": false,
+          "isUniqueKey": false,
+          "isNullable": true,
+          "isNotEmpty": false,
+          "pkType": "",
+          "multitenantContext": "",
+          "jsonIgnore": false,
+          "isTransient": false,
+          "isInsertable": true,
+          "isUpdatable": true,
+          "isEncryption": false,
+          "passwordPolicy": "none",
+          "referencedColumnName": "",
+          "isSearchable": false,
+          "sequence": "",
+          "isCascade": false,
+          "isVersion": false,
+          "storageId": "",
+          "storageKey": "",
+          "storageType": "",
+          "storageSecret": "",
+          "foreignKeyName": "",
+          "joins": "",
+          "isIndex": false,
+          "useOuterJoin": false,
+          "regionAWS": "",
+          "columnDefinition": ""
+        }
+      ],
+      "generateView": "Auto",
+      "id": "299ebe13-cb10-4a3a-8168-bde2f47b0a9f",
+      "isRest": "true",
+      "methods": [],
+      "modelType": "Table",
+      "name": "Cursos",
+      "position": {
+        "x": -96,
+        "y": -508
+      },
+      "queries": [],
+      "realName": "",
+      "restSecurity": null,
+      "role": "Class",
+      "runtimeClass": "cronos.widgets.joint.uml.Class",
+      "size": {
+        "height": 150,
+        "width": 243
+      },
+      "swagger": false,
+      "tableName": "",
+      "tableScheme": null,
+      "type": "uml.Class",
+      "usePhysicalNames": false,
+      "z": 67
     },
     {
       "angle": 0,
@@ -3219,8 +4069,8 @@
       "multitenantContextJsonIgnore": "false",
       "name": "Device",
       "position": {
-        "x": 164,
-        "y": 18
+        "x": 156,
+        "y": 20
       },
       "queries": [],
       "restPath": "",
@@ -6253,7 +7103,7 @@
         },
         ".uml-class-name-text": {
           "font-family": "\u0027Fira Sans\u0027, sans-serif",
-          "text": "TBL_HUB_IDIOMAS"
+          "text": "TBL_HUB_IDIOMASm"
         }
       },
       "audit": false,
@@ -6454,7 +7304,7 @@
       "isRest": "true",
       "methods": [],
       "modelType": "Table",
-      "name": "TBL_HUB_IDIOMAS",
+      "name": "TBL_HUB_IDIOMASm",
       "position": {
         "x": 758,
         "y": -350
@@ -9052,6 +9902,24 @@
     },
     {
       "associationType": "Association",
+      "id": "bb117b57-78b2-4598-ac8e-e4f5397f1e5a",
+      "name": "",
+      "queries": [],
+      "relationFields": [
+        "tbL_HUB_CERTIFICACAO_0:target"
+      ],
+      "runtimeClass": "cronos.widgets.joint.arrow.OneToMany",
+      "source": {
+        "id": "f71197ef-007a-4e85-9cff-586013350093"
+      },
+      "target": {
+        "id": "f71197ef-007a-4e85-9cff-586013350093"
+      },
+      "type": "uml.Composition",
+      "vertices": []
+    },
+    {
+      "associationType": "Association",
       "attrs": {
         ".marker-source": {
           "d": "M 40 10 L 20 20 L 0 10 L 20 0 z",
@@ -9353,7 +10221,9 @@
         "2016ad54-a0f9-4337-ad10-694a48f0435c",
         "4cbe47fe-4f4b-43e9-960b-4b5cc2633aef",
         "f71197ef-007a-4e85-9cff-586013350093",
+        "015a4ddd-dcc4-43ab-a69b-d03c5fb46262",
         "2b1e147d-2242-4d43-ac8e-62999d92ae7d",
+        "cb104884-430d-47aa-a4c3-ecbe781f38ce",
         "56d9e678-741d-41e6-9b24-bccc58de1598",
         "20c2345e-1f3f-4467-a3f3-9564981490ce",
         "b194a533-61d6-4661-b9da-ff80ce2835f9",
@@ -9369,32 +10239,62 @@
         "e1f81252-8701-4662-96e0-2fb68464e44d",
         "40d54d21-ebc3-4cb6-867f-b3ffc6808d8d",
         "dcc00b32-aa33-47bd-bc4d-91da88f25cbc",
+        "9697aebe-f8dd-468e-8288-151ae0ac2d01",
         "1b853adc-a331-411d-a501-98aa165878e6",
         "1e509570-c4bf-4725-8ffd-49d20034cd96",
         "ec659712-2243-46cb-bedf-569027bb7a92",
         "53b97115-f8a3-4221-9ce6-bad2672b8bd5",
+        "299ebe13-cb10-4a3a-8168-bde2f47b0a9f",
         "fabe0aea-c05d-44a4-a87c-2e2c0a97e994"
       ],
       "groupPositions": [
         {
-          "idCell": "695b730a-7d1b-47ea-9c00-be72b1f672d2",
+          "idCell": "b194a533-61d6-4661-b9da-ff80ce2835f9",
           "position": {
-            "x": 902,
-            "y": -480
+            "x": 134,
+            "y": 242
           }
         },
         {
-          "idCell": "fabe0aea-c05d-44a4-a87c-2e2c0a97e994",
+          "idCell": "d67370f0-c052-46a9-a0e7-bbc50489409d",
           "position": {
-            "x": 418,
-            "y": 90
+            "x": 532,
+            "y": 952
           }
         },
         {
-          "idCell": "ff18c9fd-5e9e-406f-8a47-e8cc8db932db",
+          "idCell": "f71197ef-007a-4e85-9cff-586013350093",
           "position": {
-            "x": 110,
-            "y": -778
+            "x": -436,
+            "y": 1286
+          }
+        },
+        {
+          "idCell": "d92238a3-a37d-4cc6-a543-d0687dc207cd",
+          "position": {
+            "x": 156,
+            "y": 20
+          }
+        },
+        {
+          "idCell": "3e86a4d5-762c-4e96-8490-8e602348d4b1",
+          "position": {
+            "x": 492,
+            "y": -664
+          }
+        },
+        {
+          "idCell": "fbe4a477-8332-4235-a9a2-5db4a56fa3d0",
+          "position": {
+            "x": 1042,
+            "y": 28
+          }
+        },
+        {
+          "idCell": "015a4ddd-dcc4-43ab-a69b-d03c5fb46262",
+          "position": {
+            "x": -342,
+            "y": -328
           }
         },
         {
@@ -9405,45 +10305,143 @@
           }
         },
         {
-          "idCell": "dcc00b32-aa33-47bd-bc4d-91da88f25cbc",
+          "idCell": "1e509570-c4bf-4725-8ffd-49d20034cd96",
           "position": {
-            "x": 656,
-            "y": 312
+            "x": -902,
+            "y": 524
           }
         },
         {
-          "idCell": "b194a533-61d6-4661-b9da-ff80ce2835f9",
+          "idCell": "c03dcbc8-4c78-43ef-b57e-7184123cb90d",
           "position": {
-            "x": 134,
-            "y": 242
+            "x": 834,
+            "y": -504
           }
         },
         {
-          "idCell": "2016ad54-a0f9-4337-ad10-694a48f0435c",
+          "idCell": "1ef97538-6cad-4620-9d9f-7caadc5df32b",
           "position": {
-            "x": 774,
-            "y": 70
+            "x": -906,
+            "y": 288
           }
         },
         {
-          "idCell": "20c2345e-1f3f-4467-a3f3-9564981490ce",
+          "idCell": "cb104884-430d-47aa-a4c3-ecbe781f38ce",
           "position": {
-            "x": -49738,
-            "y": -332
+            "x": -84,
+            "y": -338
           }
         },
         {
-          "idCell": "496ea1fe-10e8-41c9-bb49-45859e9b6fb1",
+          "idCell": "ff18c9fd-5e9e-406f-8a47-e8cc8db932db",
           "position": {
-            "x": 1362,
-            "y": -1160
+            "x": 110,
+            "y": -778
           }
         },
         {
-          "idCell": "53b97115-f8a3-4221-9ce6-bad2672b8bd5",
+          "idCell": "fabe0aea-c05d-44a4-a87c-2e2c0a97e994",
           "position": {
             "x": 418,
+            "y": 90
+          }
+        },
+        {
+          "idCell": "a730fb7f-fec6-4f1d-96aa-c511eed04239",
+          "position": {
+            "x": 788,
+            "y": -616
+          }
+        },
+        {
+          "idCell": "f9bf2999-785a-4a90-bda4-e37139bd04d0",
+          "position": {
+            "x": 1004,
+            "y": -1156
+          }
+        },
+        {
+          "idCell": "e35a650f-29ee-4683-8c1c-5cc61a955ddf",
+          "position": {
+            "x": 668,
             "y": 594
+          }
+        },
+        {
+          "idCell": "9697aebe-f8dd-468e-8288-151ae0ac2d01",
+          "position": {
+            "x": -350,
+            "y": -502
+          }
+        },
+        {
+          "idCell": "3c607725-b1ad-423e-be49-0d9065177619",
+          "position": {
+            "x": 58,
+            "y": -428
+          }
+        },
+        {
+          "idCell": "edf2507e-50cb-4ea3-b032-280814a906c7",
+          "position": {
+            "x": -698,
+            "y": -374
+          }
+        },
+        {
+          "idCell": "b744c9fb-09b5-4cd5-a10b-cb7e925467ac",
+          "position": {
+            "x": 1506,
+            "y": -914
+          }
+        },
+        {
+          "idCell": "ec659712-2243-46cb-bedf-569027bb7a92",
+          "position": {
+            "x": 118,
+            "y": 1452
+          }
+        },
+        {
+          "idCell": "0803a182-a757-4f3e-8e1a-b9786aafaee3",
+          "position": {
+            "x": -437,
+            "y": -594
+          }
+        },
+        {
+          "idCell": "9cd824a8-4bc5-4093-ab91-8f6bb8947806",
+          "position": {
+            "x": -912,
+            "y": 22
+          }
+        },
+        {
+          "idCell": "51e897da-239e-41b0-a45c-20f7e41e92ec",
+          "position": {
+            "x": 998,
+            "y": -796
+          }
+        },
+        {
+          "idCell": "f1ff9715-b220-40be-8052-5f346722db00",
+          "position": {
+            "x": 130,
+            "y": -264
+          }
+        },
+        {
+          "idCell": "ce46775f-cf90-4f47-a163-ddd1e45065f1",
+          "position": {
+            "x": 1572,
+            "y": -490
+          }
+        },
+        {
+          "idCell": "4cbe47fe-4f4b-43e9-960b-4b5cc2633aef",
+          "position": {
+            "x": 408,
+            "y": 324
           }
         },
         {
@@ -9461,31 +10459,24 @@
           }
         },
         {
-          "idCell": "51e897da-239e-41b0-a45c-20f7e41e92ec",
+          "idCell": "299ebe13-cb10-4a3a-8168-bde2f47b0a9f",
           "position": {
-            "x": 998,
-            "y": -796
+            "x": -96,
+            "y": -508
           }
         },
         {
-          "idCell": "a730fb7f-fec6-4f1d-96aa-c511eed04239",
+          "idCell": "695b730a-7d1b-47ea-9c00-be72b1f672d2",
           "position": {
-            "x": 788,
-            "y": -616
+            "x": 902,
+            "y": -480
           }
         },
         {
-          "idCell": "1e509570-c4bf-4725-8ffd-49d20034cd96",
+          "idCell": "53b97115-f8a3-4221-9ce6-bad2672b8bd5",
           "position": {
-            "x": -902,
-            "y": 524
-          }
-        },
-        {
-          "idCell": "1ef97538-6cad-4620-9d9f-7caadc5df32b",
-          "position": {
-            "x": -906,
-            "y": 288
+            "x": 418,
+            "y": 594
           }
         },
         {
@@ -9496,10 +10487,24 @@
           }
         },
         {
-          "idCell": "edf2507e-50cb-4ea3-b032-280814a906c7",
+          "idCell": "e1f81252-8701-4662-96e0-2fb68464e44d",
           "position": {
-            "x": -698,
-            "y": -374
+            "x": 758,
+            "y": -350
+          }
+        },
+        {
+          "idCell": "2b1e147d-2242-4d43-ac8e-62999d92ae7d",
+          "position": {
+            "x": 2364,
+            "y": -1072
+          }
+        },
+        {
+          "idCell": "2016ad54-a0f9-4337-ad10-694a48f0435c",
+          "position": {
+            "x": 774,
+            "y": 70
           }
         },
         {
@@ -9510,17 +10515,24 @@
           }
         },
         {
-          "idCell": "2b76b50a-bb57-4354-a653-b71b1450ebff",
+          "idCell": "36b875ac-204a-4346-82e4-aabbd2c6b202",
           "position": {
-            "x": 160,
-            "y": 532
+            "x": 940,
+            "y": 594
           }
         },
         {
-          "idCell": "3e86a4d5-762c-4e96-8490-8e602348d4b1",
+          "idCell": "20c2345e-1f3f-4467-a3f3-9564981490ce",
           "position": {
-            "x": 492,
-            "y": -664
+            "x": -49738,
+            "y": -332
+          }
+        },
+        {
+          "idCell": "e47fe33c-703e-4184-a7b8-c6b12f15f002",
+          "position": {
+            "x": 1270,
+            "y": -462
           }
         },
         {
@@ -9531,10 +10543,59 @@
           }
         },
         {
-          "idCell": "d67370f0-c052-46a9-a0e7-bbc50489409d",
+          "idCell": "338ebfd7-50cf-422b-b11f-a13be2a45e09",
           "position": {
-            "x": 532,
-            "y": 952
+            "x": 1566,
+            "y": -764
+          }
+        },
+        {
+          "idCell": "d2fb94a8-15e2-4ebb-a4c1-ea3f9e3d8054",
+          "position": {
+            "x": 116,
+            "y": 1162
+          }
+        },
+        {
+          "idCell": "496ea1fe-10e8-41c9-bb49-45859e9b6fb1",
+          "position": {
+            "x": 1362,
+            "y": -1160
+          }
+        },
+        {
+          "idCell": "34e2c56d-9941-467d-98ef-f1d77001fe81",
+          "position": {
+            "x": -152,
+            "y": 1044
+          }
+        },
+        {
+          "idCell": "2b76b50a-bb57-4354-a653-b71b1450ebff",
+          "position": {
+            "x": 160,
+            "y": 532
+          }
+        },
+        {
+          "idCell": "dcc00b32-aa33-47bd-bc4d-91da88f25cbc",
+          "position": {
+            "x": 656,
+            "y": 312
+          }
+        },
+        {
+          "idCell": "4e478614-0a04-4eea-98e5-56709b75b5cc",
+          "position": {
+            "x": 314,
+            "y": -480
+          }
+        },
+        {
+          "idCell": "cf0fd773-9004-4af2-89c5-062a6478b118",
+          "position": {
+            "x": 952,
+            "y": -176
           }
         },
         {
@@ -9552,157 +10613,10 @@
           }
         },
         {
-          "idCell": "ce46775f-cf90-4f47-a163-ddd1e45065f1",
-          "position": {
-            "x": 1572,
-            "y": -490
-          }
-        },
-        {
-          "idCell": "34e2c56d-9941-467d-98ef-f1d77001fe81",
-          "position": {
-            "x": -152,
-            "y": 1044
-          }
-        },
-        {
-          "idCell": "cf0fd773-9004-4af2-89c5-062a6478b118",
-          "position": {
-            "x": 952,
-            "y": -176
-          }
-        },
-        {
-          "idCell": "e1f81252-8701-4662-96e0-2fb68464e44d",
-          "position": {
-            "x": 758,
-            "y": -350
-          }
-        },
-        {
-          "idCell": "f1ff9715-b220-40be-8052-5f346722db00",
-          "position": {
-            "x": 130,
-            "y": -264
-          }
-        },
-        {
           "idCell": "772d96f1-56fb-4d74-bfd3-0c228773c132",
           "position": {
             "x": 1084,
             "y": -304
-          }
-        },
-        {
-          "idCell": "f9bf2999-785a-4a90-bda4-e37139bd04d0",
-          "position": {
-            "x": 1004,
-            "y": -1156
-          }
-        },
-        {
-          "idCell": "ec659712-2243-46cb-bedf-569027bb7a92",
-          "position": {
-            "x": 118,
-            "y": 1452
-          }
-        },
-        {
-          "idCell": "b744c9fb-09b5-4cd5-a10b-cb7e925467ac",
-          "position": {
-            "x": 1506,
-            "y": -914
-          }
-        },
-        {
-          "idCell": "e47fe33c-703e-4184-a7b8-c6b12f15f002",
-          "position": {
-            "x": 1270,
-            "y": -462
-          }
-        },
-        {
-          "idCell": "d2fb94a8-15e2-4ebb-a4c1-ea3f9e3d8054",
-          "position": {
-            "x": 116,
-            "y": 1162
-          }
-        },
-        {
-          "idCell": "3c607725-b1ad-423e-be49-0d9065177619",
-          "position": {
-            "x": 58,
-            "y": -428
-          }
-        },
-        {
-          "idCell": "4cbe47fe-4f4b-43e9-960b-4b5cc2633aef",
-          "position": {
-            "x": 408,
-            "y": 324
-          }
-        },
-        {
-          "idCell": "e35a650f-29ee-4683-8c1c-5cc61a955ddf",
-          "position": {
-            "x": 668,
-            "y": 594
-          }
-        },
-        {
-          "idCell": "f71197ef-007a-4e85-9cff-586013350093",
-          "position": {
-            "x": -436,
-            "y": 1286
-          }
-        },
-        {
-          "idCell": "c03dcbc8-4c78-43ef-b57e-7184123cb90d",
-          "position": {
-            "x": 834,
-            "y": -504
-          }
-        },
-        {
-          "idCell": "2b1e147d-2242-4d43-ac8e-62999d92ae7d",
-          "position": {
-            "x": 2364,
-            "y": -1072
-          }
-        },
-        {
-          "idCell": "36b875ac-204a-4346-82e4-aabbd2c6b202",
-          "position": {
-            "x": 940,
-            "y": 594
-          }
-        },
-        {
-          "idCell": "d92238a3-a37d-4cc6-a543-d0687dc207cd",
-          "position": {
-            "x": 164,
-            "y": 18
-          }
-        },
-        {
-          "idCell": "9cd824a8-4bc5-4093-ab91-8f6bb8947806",
-          "position": {
-            "x": -912,
-            "y": 22
-          }
-        },
-        {
-          "idCell": "338ebfd7-50cf-422b-b11f-a13be2a45e09",
-          "position": {
-            "x": 1566,
-            "y": -764
-          }
-        },
-        {
-          "idCell": "fbe4a477-8332-4235-a9a2-5db4a56fa3d0",
-          "position": {
-            "x": 1042,
-            "y": 28
           }
         }
       ]

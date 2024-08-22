@@ -8,6 +8,7 @@
         <class>app.entity.Conversacao</class>
         <class>app.entity.User</class>
         <class>app.entity.AuditLog</class>
+        <class>app.entity.Cursos</class>
         <class>app.entity.RoleSecurable</class>
         <class>app.entity.UserSecurable</class>
         <class>app.entity.TBL_HUB_IDIOMAS</class>
@@ -19,6 +20,7 @@
         <class>app.entity.Dados_Profissionais</class>
         <class>app.entity.TBL_HUB_AREA_ATUACAO</class>
         <class>app.entity.TBL_HUB_CONHECIMENTOS_TECNICOS</class>
+        <class>app.entity.AreaCursosTipo</class>
         <class>app.entity.Login</class>
         <class>app.entity.TBL_HUB_IDIOMASseq</class>
         <class>app.entity.View</class>
@@ -28,9 +30,11 @@
         <class>app.entity.Idioma</class>
         <class>app.entity.TBL_HUB_CERTIFICACAO</class>
         <class>app.entity.Leitura</class>
+        <class>app.entity.AreaCursos</class>
         <class>app.entity.Dados_Pessoais</class>
         <class>app.entity.Device</class>
         <class>app.entity.Role</class>
+        <class>app.entity.AreaAtuacao</class>
         <properties>
             <property name="eclipselink.ddl-generation" value="create-or-extend-tables"/>
             <property name="cronapp.diagram.namespace" value="app"/>
