@@ -10,7 +10,7 @@ window.blockly.js.blockly.BlocoAdicionarTblHubConhecimentosTecnicos = window.blo
  *
  *
  * @author Guilherme Martin De Magalhaes
- * @since 22/08/2024, 12:37:26
+ * @since 22/08/2024, 16:12:09
  *
  */
 window.blockly.js.blockly.BlocoAdicionarTblHubConhecimentosTecnicos.enviarParaGrade2Args = [];
@@ -49,7 +49,7 @@ window.blockly.js.blockly.BlocoAdicionarTblHubConhecimentosTecnicos.enviarParaGr
  *
  *
  * @author Guilherme Martin De Magalhaes
- * @since 22/08/2024, 12:37:26
+ * @since 22/08/2024, 16:12:09
  *
  */
 window.blockly.js.blockly.BlocoAdicionarTblHubConhecimentosTecnicos.enviarParaGradeArgs = [];

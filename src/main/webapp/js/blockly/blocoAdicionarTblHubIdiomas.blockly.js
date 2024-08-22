@@ -10,7 +10,7 @@ window.blockly.js.blockly.BlocoAdicionarTblHubIdiomas = window.blockly.js.blockl
  *
  *
  * @author Guilherme Martin De Magalhaes
- * @since 22/08/2024, 12:48:53
+ * @since 22/08/2024, 16:12:04
  *
  */
 window.blockly.js.blockly.BlocoAdicionarTblHubIdiomas.enviarParaGrade2Args = [];
@@ -49,7 +49,7 @@ window.blockly.js.blockly.BlocoAdicionarTblHubIdiomas.enviarParaGrade2 = async f
  *
  *
  * @author Guilherme Martin De Magalhaes
- * @since 22/08/2024, 12:48:53
+ * @since 22/08/2024, 16:12:04
  *
  */
 window.blockly.js.blockly.BlocoAdicionarTblHubIdiomas.enviarParaGradeArgs = [];
