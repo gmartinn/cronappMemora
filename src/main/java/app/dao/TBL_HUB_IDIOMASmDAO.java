@@ -17,8 +17,8 @@ import org.springframework.transaction.annotation.*;
  * 
  * @generated
  */
-@Repository("app-TBL_HUB_IDIOMASDAO")
+@Repository("app-TBL_HUB_IDIOMASmDAO")
 @Transactional(transactionManager="app-TransactionManager")
-public interface TBL_HUB_IDIOMASDAO extends JpaRepository<TBL_HUB_IDIOMAS, java.lang.String> {
+public interface TBL_HUB_IDIOMASmDAO extends JpaRepository<TBL_HUB_IDIOMASm, java.lang.String> {
 
 }

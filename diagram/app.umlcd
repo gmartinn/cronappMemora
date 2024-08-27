@@ -1416,6 +1416,199 @@
       "angle": 0,
       "attributes": [
         "id:java.lang.String",
+        "descricao:java.lang.String",
+        "nivel:java.lang.String"
+      ],
+      "attrs": {
+        ".uml-class-attrs-rect": {
+          "fill": "#F0F0F0",
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "height": 80,
+          "stroke": "#C2C2C2",
+          "transform": "translate(0,40)"
+        },
+        ".uml-class-attrs-text": {
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "font-size": 11,
+          "text": "* id\ndescricao\nnivel\n"
+        },
+        ".uml-class-attrs-value": {
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "font-size": 11,
+          "ref-x": 204,
+          "text": "Texto\nTexto\nTexto\n"
+        },
+        ".uml-class-methods-rect": {
+          "fill": "#F0F0F0",
+          "height": 20,
+          "stroke": "#C2C2C2",
+          "stroke-width": 1,
+          "transform": "translate(0,120)"
+        },
+        ".uml-class-methods-text": {
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "font-size": 11,
+          "text": ""
+        },
+        ".uml-class-name-rect": {
+          "fill": "#F0F0F0",
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "height": 40,
+          "stroke": "#C2C2C2",
+          "transform": "translate(0,0)"
+        },
+        ".uml-class-name-text": {
+          "font-family": "\u0027Fira Sans\u0027, sans-serif",
+          "text": "CadastrarConhecimentosTecnincos"
+        }
+      },
+      "audit": false,
+      "fields": [
+        {
+          "name": "id",
+          "type": "java.lang.String",
+          "dbName": "id",
+          "dbLength": "",
+          "dbPrecision": "",
+          "dbScale": "",
+          "dbDefaultValue": "UUID.randomUUID().toString().toUpperCase()",
+          "label": "Id",
+          "mask": "",
+          "isPrimaryKey": true,
+          "isUniqueKey": false,
+          "isNullable": false,
+          "isNotEmpty": false,
+          "pkType": "UUID",
+          "multitenantContext": "",
+          "jsonIgnore": false,
+          "isTransient": false,
+          "isInsertable": true,
+          "isUpdatable": true,
+          "isEncryption": false,
+          "passwordPolicy": "none",
+          "referencedColumnName": "",
+          "isSearchable": false,
+          "sequence": "",
+          "isCascade": false,
+          "isVersion": false,
+          "storageId": "",
+          "storageKey": "",
+          "storageType": "",
+          "storageSecret": "",
+          "foreignKeyName": "",
+          "joins": "",
+          "isIndex": false,
+          "useOuterJoin": false,
+          "regionAWS": "",
+          "columnDefinition": ""
+        },
+        {
+          "name": "descricao",
+          "type": "java.lang.String",
+          "dbName": "descricao",
+          "dbLength": "",
+          "dbPrecision": "",
+          "dbScale": "",
+          "dbDefaultValue": "",
+          "label": "Descricao",
+          "mask": "",
+          "isPrimaryKey": false,
+          "isUniqueKey": false,
+          "isNullable": true,
+          "isNotEmpty": false,
+          "pkType": "",
+          "multitenantContext": "",
+          "jsonIgnore": false,
+          "isTransient": false,
+          "isInsertable": true,
+          "isUpdatable": true,
+          "isEncryption": false,
+          "passwordPolicy": "none",
+          "referencedColumnName": "",
+          "isSearchable": false,
+          "sequence": "",
+          "isCascade": false,
+          "isVersion": false,
+          "storageId": "",
+          "storageKey": "",
+          "storageType": "",
+          "storageSecret": "",
+          "foreignKeyName": "",
+          "joins": "",
+          "isIndex": false,
+          "useOuterJoin": false,
+          "regionAWS": "",
+          "columnDefinition": ""
+        },
+        {
+          "name": "nivel",
+          "type": "java.lang.String",
+          "dbName": "nivel",
+          "dbLength": "",
+          "dbPrecision": "",
+          "dbScale": "",
+          "dbDefaultValue": "",
+          "label": "Nivel",
+          "mask": "",
+          "isPrimaryKey": false,
+          "isUniqueKey": false,
+          "isNullable": true,
+          "isNotEmpty": false,
+          "pkType": "",
+          "multitenantContext": "",
+          "jsonIgnore": false,
+          "isTransient": false,
+          "isInsertable": true,
+          "isUpdatable": true,
+          "isEncryption": false,
+          "passwordPolicy": "none",
+          "referencedColumnName": "",
+          "isSearchable": false,
+          "sequence": "",
+          "isCascade": false,
+          "isVersion": false,
+          "storageId": "",
+          "storageKey": "",
+          "storageType": "",
+          "storageSecret": "",
+          "foreignKeyName": "",
+          "joins": "",
+          "isIndex": false,
+          "useOuterJoin": false,
+          "regionAWS": "",
+          "columnDefinition": ""
+        }
+      ],
+      "generateView": "Auto",
+      "id": "dbeb2ef4-ee19-4fdb-b894-a474a4aa6887",
+      "isRest": "true",
+      "methods": [],
+      "modelType": "Table",
+      "name": "CadastrarConhecimentosTecnincos",
+      "position": {
+        "x": 182,
+        "y": -500
+      },
+      "queries": [],
+      "realName": "",
+      "restSecurity": null,
+      "role": "Class",
+      "runtimeClass": "cronos.widgets.joint.uml.Class",
+      "size": {
+        "height": 130,
+        "width": 243
+      },
+      "swagger": false,
+      "tableName": "",
+      "tableScheme": null,
+      "type": "uml.Class",
+      "usePhysicalNames": false,
+      "z": 71
+    },
+    {
+      "angle": 0,
+      "attributes": [
+        "id:java.lang.String",
         "opcao:java.lang.String"
       ],
       "attrs": {
@@ -1591,7 +1784,7 @@
         ".uml-class-attrs-value": {
           "font-family": "\u0027Fira Sans\u0027, sans-serif",
           "font-size": 11,
-          "ref-x": 196,
+          "ref-x": 197,
           "text": "Inteiro\nTexto\nTexto\nLógico\nData\n"
         },
         ".uml-class-methods-rect": {
@@ -1818,8 +2011,8 @@
       "modelType": "Table",
       "name": "Cursos",
       "position": {
-        "x": -96,
-        "y": -508
+        "x": -92,
+        "y": -504
       },
       "queries": [],
       "realName": "",
@@ -7079,7 +7272,7 @@
         ".uml-class-attrs-value": {
           "font-family": "\u0027Fira Sans\u0027, sans-serif",
           "font-size": 11,
-          "ref-x": 140,
+          "ref-x": 138,
           "text": "Texto\nIdioma\nLeitura\nEscrita\nConversacao\n"
         },
         ".uml-class-methods-rect": {
@@ -7306,8 +7499,8 @@
       "modelType": "Table",
       "name": "TBL_HUB_IDIOMASm",
       "position": {
-        "x": 758,
-        "y": -350
+        "x": 764,
+        "y": -340
       },
       "queries": [],
       "realName": "",
@@ -10240,6 +10433,7 @@
         "40d54d21-ebc3-4cb6-867f-b3ffc6808d8d",
         "dcc00b32-aa33-47bd-bc4d-91da88f25cbc",
         "9697aebe-f8dd-468e-8288-151ae0ac2d01",
+        "dbeb2ef4-ee19-4fdb-b894-a474a4aa6887",
         "1b853adc-a331-411d-a501-98aa165878e6",
         "1e509570-c4bf-4725-8ffd-49d20034cd96",
         "ec659712-2243-46cb-bedf-569027bb7a92",
@@ -10249,87 +10443,24 @@
       ],
       "groupPositions": [
         {
-          "idCell": "b194a533-61d6-4661-b9da-ff80ce2835f9",
+          "idCell": "e47fe33c-703e-4184-a7b8-c6b12f15f002",
           "position": {
-            "x": 134,
-            "y": 242
+            "x": 1270,
+            "y": -462
           }
         },
         {
-          "idCell": "d67370f0-c052-46a9-a0e7-bbc50489409d",
+          "idCell": "ce46775f-cf90-4f47-a163-ddd1e45065f1",
           "position": {
-            "x": 532,
-            "y": 952
+            "x": 1572,
+            "y": -490
           }
         },
         {
-          "idCell": "f71197ef-007a-4e85-9cff-586013350093",
+          "idCell": "56d9e678-741d-41e6-9b24-bccc58de1598",
           "position": {
-            "x": -436,
-            "y": 1286
-          }
-        },
-        {
-          "idCell": "d92238a3-a37d-4cc6-a543-d0687dc207cd",
-          "position": {
-            "x": 156,
-            "y": 20
-          }
-        },
-        {
-          "idCell": "3e86a4d5-762c-4e96-8490-8e602348d4b1",
-          "position": {
-            "x": 492,
-            "y": -664
-          }
-        },
-        {
-          "idCell": "fbe4a477-8332-4235-a9a2-5db4a56fa3d0",
-          "position": {
-            "x": 1042,
-            "y": 28
-          }
-        },
-        {
-          "idCell": "015a4ddd-dcc4-43ab-a69b-d03c5fb46262",
-          "position": {
-            "x": -342,
-            "y": -328
-          }
-        },
-        {
-          "idCell": "c05f6819-edde-454d-a116-81619231003f",
-          "position": {
-            "x": 906,
-            "y": -724
-          }
-        },
-        {
-          "idCell": "1e509570-c4bf-4725-8ffd-49d20034cd96",
-          "position": {
-            "x": -902,
-            "y": 524
-          }
-        },
-        {
-          "idCell": "c03dcbc8-4c78-43ef-b57e-7184123cb90d",
-          "position": {
-            "x": 834,
-            "y": -504
-          }
-        },
-        {
-          "idCell": "1ef97538-6cad-4620-9d9f-7caadc5df32b",
-          "position": {
-            "x": -906,
-            "y": 288
-          }
-        },
-        {
-          "idCell": "cb104884-430d-47aa-a4c3-ecbe781f38ce",
-          "position": {
-            "x": -84,
-            "y": -338
+            "x": 1086,
+            "y": 376
           }
         },
         {
@@ -10347,101 +10478,10 @@
           }
         },
         {
-          "idCell": "a730fb7f-fec6-4f1d-96aa-c511eed04239",
+          "idCell": "d67370f0-c052-46a9-a0e7-bbc50489409d",
           "position": {
-            "x": 788,
-            "y": -616
-          }
-        },
-        {
-          "idCell": "f9bf2999-785a-4a90-bda4-e37139bd04d0",
-          "position": {
-            "x": 1004,
-            "y": -1156
-          }
-        },
-        {
-          "idCell": "e35a650f-29ee-4683-8c1c-5cc61a955ddf",
-          "position": {
-            "x": 668,
-            "y": 594
-          }
-        },
-        {
-          "idCell": "9697aebe-f8dd-468e-8288-151ae0ac2d01",
-          "position": {
-            "x": -350,
-            "y": -502
-          }
-        },
-        {
-          "idCell": "3c607725-b1ad-423e-be49-0d9065177619",
-          "position": {
-            "x": 58,
-            "y": -428
-          }
-        },
-        {
-          "idCell": "edf2507e-50cb-4ea3-b032-280814a906c7",
-          "position": {
-            "x": -698,
-            "y": -374
-          }
-        },
-        {
-          "idCell": "b744c9fb-09b5-4cd5-a10b-cb7e925467ac",
-          "position": {
-            "x": 1506,
-            "y": -914
-          }
-        },
-        {
-          "idCell": "ec659712-2243-46cb-bedf-569027bb7a92",
-          "position": {
-            "x": 118,
-            "y": 1452
-          }
-        },
-        {
-          "idCell": "0803a182-a757-4f3e-8e1a-b9786aafaee3",
-          "position": {
-            "x": -437,
-            "y": -594
-          }
-        },
-        {
-          "idCell": "9cd824a8-4bc5-4093-ab91-8f6bb8947806",
-          "position": {
-            "x": -912,
-            "y": 22
-          }
-        },
-        {
-          "idCell": "51e897da-239e-41b0-a45c-20f7e41e92ec",
-          "position": {
-            "x": 998,
-            "y": -796
-          }
-        },
-        {
-          "idCell": "f1ff9715-b220-40be-8052-5f346722db00",
-          "position": {
-            "x": 130,
-            "y": -264
-          }
-        },
-        {
-          "idCell": "ce46775f-cf90-4f47-a163-ddd1e45065f1",
-          "position": {
-            "x": 1572,
-            "y": -490
-          }
-        },
-        {
-          "idCell": "4cbe47fe-4f4b-43e9-960b-4b5cc2633aef",
-          "position": {
-            "x": 408,
-            "y": 324
+            "x": 532,
+            "y": 952
           }
         },
         {
@@ -10452,87 +10492,17 @@
           }
         },
         {
-          "idCell": "8f5b408a-8423-47c1-81ac-8dd6c42b4cab",
+          "idCell": "dbeb2ef4-ee19-4fdb-b894-a474a4aa6887",
           "position": {
-            "x": 402,
-            "y": -388
+            "x": 182,
+            "y": -500
           }
         },
         {
           "idCell": "299ebe13-cb10-4a3a-8168-bde2f47b0a9f",
           "position": {
-            "x": -96,
-            "y": -508
-          }
-        },
-        {
-          "idCell": "695b730a-7d1b-47ea-9c00-be72b1f672d2",
-          "position": {
-            "x": 902,
-            "y": -480
-          }
-        },
-        {
-          "idCell": "53b97115-f8a3-4221-9ce6-bad2672b8bd5",
-          "position": {
-            "x": 418,
-            "y": 594
-          }
-        },
-        {
-          "idCell": "dca23a3e-a91f-456b-b29e-a3872505865f",
-          "position": {
-            "x": 1354,
-            "y": -270
-          }
-        },
-        {
-          "idCell": "e1f81252-8701-4662-96e0-2fb68464e44d",
-          "position": {
-            "x": 758,
-            "y": -350
-          }
-        },
-        {
-          "idCell": "2b1e147d-2242-4d43-ac8e-62999d92ae7d",
-          "position": {
-            "x": 2364,
-            "y": -1072
-          }
-        },
-        {
-          "idCell": "2016ad54-a0f9-4337-ad10-694a48f0435c",
-          "position": {
-            "x": 774,
-            "y": 70
-          }
-        },
-        {
-          "idCell": "1b853adc-a331-411d-a501-98aa165878e6",
-          "position": {
-            "x": 1042,
-            "y": -494
-          }
-        },
-        {
-          "idCell": "36b875ac-204a-4346-82e4-aabbd2c6b202",
-          "position": {
-            "x": 940,
-            "y": 594
-          }
-        },
-        {
-          "idCell": "20c2345e-1f3f-4467-a3f3-9564981490ce",
-          "position": {
-            "x": -49738,
-            "y": -332
-          }
-        },
-        {
-          "idCell": "e47fe33c-703e-4184-a7b8-c6b12f15f002",
-          "position": {
-            "x": 1270,
-            "y": -462
+            "x": -92,
+            "y": -504
           }
         },
         {
@@ -10543,31 +10513,17 @@
           }
         },
         {
-          "idCell": "338ebfd7-50cf-422b-b11f-a13be2a45e09",
+          "idCell": "f9bf2999-785a-4a90-bda4-e37139bd04d0",
           "position": {
-            "x": 1566,
-            "y": -764
+            "x": 1004,
+            "y": -1156
           }
         },
         {
-          "idCell": "d2fb94a8-15e2-4ebb-a4c1-ea3f9e3d8054",
+          "idCell": "edf2507e-50cb-4ea3-b032-280814a906c7",
           "position": {
-            "x": 116,
-            "y": 1162
-          }
-        },
-        {
-          "idCell": "496ea1fe-10e8-41c9-bb49-45859e9b6fb1",
-          "position": {
-            "x": 1362,
-            "y": -1160
-          }
-        },
-        {
-          "idCell": "34e2c56d-9941-467d-98ef-f1d77001fe81",
-          "position": {
-            "x": -152,
-            "y": 1044
+            "x": -698,
+            "y": -374
           }
         },
         {
@@ -10578,10 +10534,45 @@
           }
         },
         {
-          "idCell": "dcc00b32-aa33-47bd-bc4d-91da88f25cbc",
+          "idCell": "cf0fd773-9004-4af2-89c5-062a6478b118",
           "position": {
-            "x": 656,
-            "y": 312
+            "x": 952,
+            "y": -176
+          }
+        },
+        {
+          "idCell": "dca23a3e-a91f-456b-b29e-a3872505865f",
+          "position": {
+            "x": 1354,
+            "y": -270
+          }
+        },
+        {
+          "idCell": "f71197ef-007a-4e85-9cff-586013350093",
+          "position": {
+            "x": -436,
+            "y": 1286
+          }
+        },
+        {
+          "idCell": "b194a533-61d6-4661-b9da-ff80ce2835f9",
+          "position": {
+            "x": 134,
+            "y": 242
+          }
+        },
+        {
+          "idCell": "fbe4a477-8332-4235-a9a2-5db4a56fa3d0",
+          "position": {
+            "x": 1042,
+            "y": 28
+          }
+        },
+        {
+          "idCell": "53b97115-f8a3-4221-9ce6-bad2672b8bd5",
+          "position": {
+            "x": 418,
+            "y": 594
           }
         },
         {
@@ -10592,17 +10583,115 @@
           }
         },
         {
-          "idCell": "cf0fd773-9004-4af2-89c5-062a6478b118",
+          "idCell": "e35a650f-29ee-4683-8c1c-5cc61a955ddf",
           "position": {
-            "x": 952,
-            "y": -176
+            "x": 668,
+            "y": 594
           }
         },
         {
-          "idCell": "56d9e678-741d-41e6-9b24-bccc58de1598",
+          "idCell": "0803a182-a757-4f3e-8e1a-b9786aafaee3",
           "position": {
-            "x": 1086,
-            "y": 376
+            "x": -437,
+            "y": -594
+          }
+        },
+        {
+          "idCell": "2016ad54-a0f9-4337-ad10-694a48f0435c",
+          "position": {
+            "x": 774,
+            "y": 70
+          }
+        },
+        {
+          "idCell": "34e2c56d-9941-467d-98ef-f1d77001fe81",
+          "position": {
+            "x": -152,
+            "y": 1044
+          }
+        },
+        {
+          "idCell": "1ef97538-6cad-4620-9d9f-7caadc5df32b",
+          "position": {
+            "x": -906,
+            "y": 288
+          }
+        },
+        {
+          "idCell": "015a4ddd-dcc4-43ab-a69b-d03c5fb46262",
+          "position": {
+            "x": -342,
+            "y": -328
+          }
+        },
+        {
+          "idCell": "a730fb7f-fec6-4f1d-96aa-c511eed04239",
+          "position": {
+            "x": 788,
+            "y": -616
+          }
+        },
+        {
+          "idCell": "9cd824a8-4bc5-4093-ab91-8f6bb8947806",
+          "position": {
+            "x": -912,
+            "y": 22
+          }
+        },
+        {
+          "idCell": "36b875ac-204a-4346-82e4-aabbd2c6b202",
+          "position": {
+            "x": 940,
+            "y": 594
+          }
+        },
+        {
+          "idCell": "82bd7b57-876f-4504-a382-384c3a9b3a47",
+          "position": {
+            "x": 166,
+            "y": -508
+          }
+        },
+        {
+          "idCell": "c03dcbc8-4c78-43ef-b57e-7184123cb90d",
+          "position": {
+            "x": 834,
+            "y": -504
+          }
+        },
+        {
+          "idCell": "ec659712-2243-46cb-bedf-569027bb7a92",
+          "position": {
+            "x": 118,
+            "y": 1452
+          }
+        },
+        {
+          "idCell": "496ea1fe-10e8-41c9-bb49-45859e9b6fb1",
+          "position": {
+            "x": 1362,
+            "y": -1160
+          }
+        },
+        {
+          "idCell": "3e86a4d5-762c-4e96-8490-8e602348d4b1",
+          "position": {
+            "x": 492,
+            "y": -664
+          }
+        },
+        {
+          "idCell": "9697aebe-f8dd-468e-8288-151ae0ac2d01",
+          "position": {
+            "x": -350,
+            "y": -502
+          }
+        },
+        {
+          "idCell": "d92238a3-a37d-4cc6-a543-d0687dc207cd",
+          "position": {
+            "x": 156,
+            "y": 20
           }
         },
         {
@@ -10613,10 +10702,129 @@
           }
         },
         {
+          "idCell": "b744c9fb-09b5-4cd5-a10b-cb7e925467ac",
+          "position": {
+            "x": 1506,
+            "y": -914
+          }
+        },
+        {
+          "idCell": "cb104884-430d-47aa-a4c3-ecbe781f38ce",
+          "position": {
+            "x": -84,
+            "y": -338
+          }
+        },
+        {
+          "idCell": "2b1e147d-2242-4d43-ac8e-62999d92ae7d",
+          "position": {
+            "x": 2364,
+            "y": -1072
+          }
+        },
+        {
+          "idCell": "1b853adc-a331-411d-a501-98aa165878e6",
+          "position": {
+            "x": 1042,
+            "y": -494
+          }
+        },
+        {
+          "idCell": "dcc00b32-aa33-47bd-bc4d-91da88f25cbc",
+          "position": {
+            "x": 656,
+            "y": 312
+          }
+        },
+        {
           "idCell": "772d96f1-56fb-4d74-bfd3-0c228773c132",
           "position": {
             "x": 1084,
             "y": -304
+          }
+        },
+        {
+          "idCell": "f1ff9715-b220-40be-8052-5f346722db00",
+          "position": {
+            "x": 130,
+            "y": -264
+          }
+        },
+        {
+          "idCell": "4cbe47fe-4f4b-43e9-960b-4b5cc2633aef",
+          "position": {
+            "x": 408,
+            "y": 324
+          }
+        },
+        {
+          "idCell": "8f5b408a-8423-47c1-81ac-8dd6c42b4cab",
+          "position": {
+            "x": 402,
+            "y": -388
+          }
+        },
+        {
+          "idCell": "338ebfd7-50cf-422b-b11f-a13be2a45e09",
+          "position": {
+            "x": 1566,
+            "y": -764
+          }
+        },
+        {
+          "idCell": "3c607725-b1ad-423e-be49-0d9065177619",
+          "position": {
+            "x": 58,
+            "y": -428
+          }
+        },
+        {
+          "idCell": "c05f6819-edde-454d-a116-81619231003f",
+          "position": {
+            "x": 906,
+            "y": -724
+          }
+        },
+        {
+          "idCell": "20c2345e-1f3f-4467-a3f3-9564981490ce",
+          "position": {
+            "x": -49738,
+            "y": -332
+          }
+        },
+        {
+          "idCell": "51e897da-239e-41b0-a45c-20f7e41e92ec",
+          "position": {
+            "x": 998,
+            "y": -796
+          }
+        },
+        {
+          "idCell": "d2fb94a8-15e2-4ebb-a4c1-ea3f9e3d8054",
+          "position": {
+            "x": 116,
+            "y": 1162
+          }
+        },
+        {
+          "idCell": "1e509570-c4bf-4725-8ffd-49d20034cd96",
+          "position": {
+            "x": -902,
+            "y": 524
+          }
+        },
+        {
+          "idCell": "e1f81252-8701-4662-96e0-2fb68464e44d",
+          "position": {
+            "x": 764,
+            "y": -340
+          }
+        },
+        {
+          "idCell": "695b730a-7d1b-47ea-9c00-be72b1f672d2",
+          "position": {
+            "x": 902,
+            "y": -480
           }
         }
       ]
