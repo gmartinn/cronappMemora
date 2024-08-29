@@ -1,0 +1,50 @@
+<div id="starter" ng-init="" ng-destroy="" data-component="crn-start" screen-params="" primary-datasource="Especialista">
+<h1 class="component-holder text-left h3 title" xattr-position="text-left" xattr-type="h3" data-component="crn-text-component" id="crn-text-component-94504">
+Especialista
+</h1>
+<datasource data-component="crn-datasource" filter="" name="Especialista" entity="app.Especialista" keys="_objectKey" rows-per-page="100" class="" schema="[{&quot;name&quot;:&quot;id&quot;,&quot;type&quot;:&quot;String&quot;,&quot;nullable&quot;:false,&quot;notEmpty&quot;:false,&quot;key&quot;:false},{&quot;name&quot;:&quot;name&quot;,&quot;type&quot;:&quot;String&quot;,&quot;nullable&quot;:true,&quot;notEmpty&quot;:false,&quot;key&quot;:false},{&quot;name&quot;:&quot;_objectKey&quot;,&quot;type&quot;:&quot;String&quot;,&quot;nullable&quot;:false,&quot;notEmpty&quot;:false,&quot;key&quot;:true}]" condition="{&quot;maxRecord&quot;:100,&quot;params&quot;:[],&quot;expression&quot;:{&quot;type&quot;:&quot;OR&quot;,&quot;args&quot;:[{&quot;type&quot;:&quot;%&quot;,&quot;left&quot;:&quot;name&quot;,&quot;right&quot;:&quot;{{vars.search|raw}}&quot;,&quot;args&quot;:[]}]}}" lazy="false"></datasource>
+<div data-component="crn-form" id="crn-form-form-Especialista-94504">
+    <section >
+        <form crn-datasource="Especialista" class="">
+            <div class="">
+                <div class="component-holder ng-scope text-right" data-component="crn-button" id="btn_crud_post_94504">
+                    <button class="btn k-button btn-block btn-success btn-fab" ng-click="datasource.post()" aria-label="{{'SaveChanges' | translate}}" xattr-fullsize="btn-block" xattr-theme="btn-success" xattr-disabled="">
+                        <i class="glyphicon glyphicon-ok" icon-theme=""></i>
+                    </button>
+                </div>
+            </div>
+            <br/>
+            <div class="crn-fieldset">
+
+
+                    <div data-component="crn-textinput" id="crn-textinput-name-94504" class="">
+                        <div class="form-group">
+                                <label for="textinput-name" class="">Name</label>
+                                <input
+                                        type="text"
+                                        ng-model="Especialista.active.name"
+                                        class="form-control k-textbox"
+                                        id="textinput-name"
+                                        placeholder="Name"
+                                        mask=""
+                                        mask-placeholder=""
+                                        ng-required="false">
+                        </div>
+                    </div>
+                <!-- NtoN  -->
+                <!-- NtoN  end-->
+            </div>
+        </form>
+    </section>
+    <section class="form" >
+        <form>
+            <div>
+                <!-- OneToN -->
+                <!-- OneToOne  end -->
+            </div>
+        </form>
+    </section>
+</div>
+
+
+</div>

@@ -35,6 +35,7 @@
         <class>app.entity.Device</class>
         <class>app.entity.Role</class>
         <class>app.entity.AreaAtuacao</class>
+        <class>app.entity.Especialista</class>
         <class>app.entity.TBL_HUB_IDIOMASm</class>
         <properties>
             <property name="eclipselink.ddl-generation" value="create-or-extend-tables"/>
