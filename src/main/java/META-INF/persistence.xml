@@ -11,7 +11,7 @@
         <class>app.entity.Cursos</class>
         <class>app.entity.RoleSecurable</class>
         <class>app.entity.UserSecurable</class>
-        <class>app.entity.TBL_HUB_IDIOMAS</class>
+        <class>app.entity.CadastrarConhecimentosTecnincos</class>
         <class>app.entity.Application</class>
         <class>app.entity.Dados_Academicos</class>
         <class>app.entity.InvalidatedToken</class>
@@ -35,6 +35,8 @@
         <class>app.entity.Device</class>
         <class>app.entity.Role</class>
         <class>app.entity.AreaAtuacao</class>
+        <class>app.entity.Especialista</class>
+        <class>app.entity.TBL_HUB_IDIOMASm</class>
         <properties>
             <property name="eclipselink.ddl-generation" value="create-or-extend-tables"/>
             <property name="cronapp.diagram.namespace" value="app"/>
